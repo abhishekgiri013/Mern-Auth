@@ -9,7 +9,7 @@ const app = express();
 const port = process.env.PORT  || 4000;
 connectDB();
 
-const allowedOrigins = ['http://localhost:5175']
+const allowedOrigins = ['https://mern-auth-frontend-3j6s.onrender.com']
 
 app.use(express.json());
 app.use(cookieParser());
